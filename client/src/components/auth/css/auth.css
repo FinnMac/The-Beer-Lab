@@ -1,0 +1,12 @@
+label {
+    color: darkred;
+    font-size: 14px;
+}
+
+.form-control {
+    border: 1px solid darkred !important;
+}
+
+.invalid-feedback {
+    color: darkred !important;
+}

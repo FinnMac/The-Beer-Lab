@@ -1,0 +1,27 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Chivo:wght@200&display=swap');
+
+
+input.add-btn {
+    background-color: darkred;
+    color: wheat;
+}
+
+input.add-btn:hover {
+    border-color: darkred;
+    color: wheat;
+    }
+
+    button.add-btn {
+        background-color: darkred;
+        color: wheat;
+    }
+    
+    button.add-btn:hover {
+        border-color: darkred;
+        color: wheat;
+        }
+
+h1, h3, h4, h5{
+    font-family: "Abril Fatface", cursive;
+}

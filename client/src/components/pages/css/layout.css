@@ -1,0 +1,61 @@
+.card-text {
+    background-color:antiquewhite;
+    position:absolute;
+    margin: 0%;
+    bottom: 3%;
+    left: 40%;
+}
+
+.beer-page a {
+    color: black;
+    text-decoration: none;
+}
+
+.beer-page a:hover {
+    color: black;
+}
+
+#about .accordion-button {
+    background-color: wheat;
+    color: darkred;
+    padding-top: 20px;
+}
+
+#about .accordion-button:not(.colapsed) {
+    box-shadow: none;
+}
+
+#about .accordion-button:not(.collapsed)::after {
+    background-image: url("data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 16 16%27 fill=%27%23212529%27%3e%3cpath fill-rule=%27evenodd%27 d=%27M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z%27/%3e%3c/svg%3e");
+    transform: rotate(-180deg);
+}
+
+#about .accordion-button:focus::after:visited {
+    box-shadow: 0 0 10px rgb(0 0 0 / 50%);
+}
+#about .accordion-button:hover {
+    box-shadow: 0 0 10px rgb(0 0 0 / 50%);
+}
+#about .accordion-item {
+    background-color: wheat;
+    color: darkred;
+}
+
+.col {
+    position:relative;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(1)
+}
+
+img {
+    max-width: 100%;
+    min-width: 100%;
+}
+
+.carousel img {
+    margin: auto;
+    border: 5px solid #db3c09;
+}
